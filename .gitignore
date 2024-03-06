@@ -1,0 +1,20 @@
+
+# 数据集
+WIDER_FACE/wider_face_split/*
+WIDER_FACE/WIDER_train/*
+WIDER_FACE/WIDER_val/*
+
+#数据集
+datasets/*
+
+#文件夹
+resnet18/
+handle_data/
+convert/
+.idea/
+
+opencv_faceClassify/model.yml
+draw.py
+yolov8n.pt
+
+
