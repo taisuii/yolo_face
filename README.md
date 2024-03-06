@@ -15,8 +15,8 @@ WIDER Face(人脸目标检测数据集) http://shuoyang1213.me/WIDERFACE/
 
 先下载这三个，解压到WIDER_FACE，我们只需要这几个数据，从左到右，x和y的最小值坐标，box的宽和高
 
-![img.png](runs/img2.png)
-![img.png](runs/img.png)
+![img.png](imgs/img2.png)
+![img.png](imgs/img.png)
 
 把数据进行转换成yolo支持的coco8格式(WIDER_FACE_COCO8.py)，即比例形式
 
@@ -62,7 +62,7 @@ Results saved to runs\detect\train22
 ``
 
 左边标签，右边predict
-![img_2.png](runs/img_2.png)
+![img_2.png](imgs/img_2.png)
 ![runs/detect/train2/results.png](runs/detect/train2/results.png)
 
 ## 0x4 OpenCv训练
@@ -82,7 +82,7 @@ python opencv_faceClassify/train.py
 ```angular2html
 python run.py
 ```
-![img_3.png](runs/img_3.png)
+![img_3.png](imgs/img_3.png)
 
 
 Base on yolov8 and wider face dataset, training a model that can be used
